@@ -30,12 +30,12 @@ export default function RootLayout({
       <body className="min-h-screen bg-white antialiased">
         <div className="flex">
           {/* Sidebar */}
-          <aside className="fixed left-0 top-0 h-screen w-72 border-r border-gray-200 bg-white overflow-y-auto">
+          <aside className="fixed left-0 top-0 h-screen w-60 border-r border-gray-200 bg-white overflow-y-auto">
             <Sidebar />
           </aside>
 
           {/* Main Section */}
-          <div className="flex-1 ml-72">
+          <div className="flex-1 ml-60">
             {/* Header */}
             <header className="sticky top-0 z-40 border-b border-gray-200 bg-white">
               <SiteHeader />
