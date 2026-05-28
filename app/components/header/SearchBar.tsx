@@ -26,8 +26,8 @@ export function SearchBar() {
         className="flex-1 bg-transparent border-none outline-none text-sm text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 w-48"
       />
 
-      <kbd className="inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[11px] text-zinc-400 bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-[5px] shrink-0 leading-none">
-        <span className="text-[13px]">⌘</span>K
+      <kbd className="inline-flex items-center gap-0.5 px-1 py-0.75 text-sm text-zinc-600 bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-[5px] shrink-0 leading-none">
+        <span className="text-[12px]">⌘</span>K
       </kbd>
     </div>
   );
