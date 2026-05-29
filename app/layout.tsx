@@ -32,7 +32,7 @@ export default function RootLayout({
 
           <div className="flex-1 ml-64">
             <SiteHeader active={active} />
-            <main className="p-4">{children}</main>
+            <main className="p-10">{children}</main>
           </div>
         </div>
       </body>
